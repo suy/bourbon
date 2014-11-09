@@ -400,3 +400,9 @@
 
   @warn "The golden-ratio function is deprecated and will be removed in the next major version release. Please use the modular-scale function, instead.";
 }
+
+@mixin box-sizing($value) {
+  box-sizing: $value;
+
+  @warn "The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.";
+}
